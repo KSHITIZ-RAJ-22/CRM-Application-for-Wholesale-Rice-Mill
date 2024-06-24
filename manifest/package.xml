@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Consumer__c</members>
+        <members>Rice_Detail__c</members>
+        <members>Rice_Mill__c</members>
+        <members>Supplier__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Consumer__c-Consumer Layout</members>
+        <members>Rice_Detail__c-Rice Detail Layout</members>
+        <members>Rice_Mill__c-Rice Mill Layout</members>
+        <members>Supplier__c-Supplier Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>AmountDataDashboard/RiceMillDashboard</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>EstimatedRicePerDay/Range_Of_Amount_Per_Day_Report</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>Owner</members>
+        <members>Employer</members>
+        <members>Worker</members>
+        <name>Role</name>
+    </types>
+    <types>
+        <members>Sharing</members>
+        <name>Settings</name>
+    </types>
+    
+    <version>61.0</version>
+</Package>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rice_Mill_1_one__c</fullName>
+    <label>Rice Mill 1(one)</label>
+    <referenceTo>Rice_Mill__c</referenceTo>
+    <relationshipLabel>Rice Details</relationshipLabel>
+    <relationshipName>Rice_Details</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

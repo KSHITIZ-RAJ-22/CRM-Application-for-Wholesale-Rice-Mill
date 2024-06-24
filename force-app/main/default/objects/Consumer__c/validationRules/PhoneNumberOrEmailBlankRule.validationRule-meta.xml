@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PhoneNumberOrEmailBlankRule</fullName>
+    <active>true</active>
+    <description>Phone number and email number should not be blank</description>
+    <errorConditionFormula>OR( ISBLANK( Phone_Number__c ) , ISBLANK( Email__c ) )</errorConditionFormula>
+    <errorMessage>Please fill in your phone number.</errorMessage>
+</ValidationRule>

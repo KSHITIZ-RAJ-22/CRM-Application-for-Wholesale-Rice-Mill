@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rice_Distributed_To_Shops__c</fullName>
+    <label>Rice Distributed To Shops</label>
+    <summarizedField>Rice_Detail__c.Rice_Distributed__c</summarizedField>
+    <summaryForeignKey>Rice_Detail__c.Rice_Mill_1_one__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
